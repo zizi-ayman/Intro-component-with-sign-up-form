@@ -38,6 +38,9 @@ main , body, .TAS{
 .offer, form, input{
     border-radius: 5px;
 }
+.offer span:first-child{
+    font-weight: 600;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -59,7 +62,7 @@ input, .TAS{
 input:focus{
     color: black;
 }
-input[type=button]{
+input[type=submit]{
     background-color: hsl(154, 59%, 51%);
     color: white;
     border: none;
@@ -73,6 +76,8 @@ input[type=button]{
     color: hsl(0, 100%, 74%);
     cursor: pointer;
 }
+
+
 @media (max-width:680px) {
     main{
         flex-direction: column;
