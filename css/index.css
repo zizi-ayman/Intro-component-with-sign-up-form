@@ -34,6 +34,7 @@ main , body, .TAS{
     text-align: center;
     flex-basis: 20%;
     padding: 2% 5%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 6px 0 0;
 }
 .offer, form, input{
     border-radius: 5px;
@@ -48,12 +49,13 @@ form{
     background-color: white;
     margin-top: 1rem;
     padding: 4% 0%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 6px 0 0;
 }
 input{
     min-height: 40px;
     padding: 0% 4%;
     font-weight: 600;
-    border-color: hsl(246, 25%, 77%);
+    border: thin solid rgb(226, 224, 224);
     color: hsl(246, 25%, 77%);
 }
 input, .TAS{
